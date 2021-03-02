@@ -1,3 +1,15 @@
+import axios from 'axios'
+import { userURl } from '../config/api'
+
+
+/**
+ *
+ * @param {title, description} data
+ */
+export const addUser = creds => {
+    return axios.post(userURl, creds).then(res => res.data)
+}
+
 /**
  *
  * @param {username, password} creds

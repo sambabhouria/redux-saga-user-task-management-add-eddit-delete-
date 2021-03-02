@@ -1,56 +1,116 @@
 {
-    "tasks": [
-      {
-        "id": 1,
-        "title": "Learn JSON",
-        "description": "This is to learn JSON",
-        "completed": false,
-        "date": "2020-08-24"
-      },
-      {
-        "id": 2,
-        "title": "Learn Redux",
-        "description": "This is to learn Redux",
-        "completed": false,
-        "date": "2020-08-24"
-      },
-      {
-        "id": 3,
-        "title": "Learn Redux Saga",
-        "description": "This is to learn Redux Saga",
-        "completed": false,
-        "date": "2020-08-24"
-      },
-      {
-        "id": 4,
-        "title": "Learn APIs",
-        "description": "This is to learn API Integration",
-        "completed": false,
-        "date": "2020-08-24"
-      },
-      {
-        "title": "Learn React Router",
-        "description": "React Router DOM is a great tool for routing.",
-        "date": "2020-08-28T05:00:47.035Z",
-        "completed": false,
-        "id": 5
-      }
-    ],
-    "posts": [
-      {
-        "id": 1,
-        "title": "json-server",
-        "author": "typicode"
-      }
-    ],
-    "comments": [
-      {
-        "id": 1,
-        "body": "some comment",
-        "postId": 1
-      }
-    ],
-    "profile": {
-      "name": "typicode"
+  "users": [
+    {
+      "id": "zbb6cc3ay26omrdz",
+      "username": "sambabhouria",
+      "passwoed": "pass"
+    },
+    {
+      "username": "user1",
+      "password": "user",
+      "id": "HyOQO7-"
+    },
+    {
+      "username": "user1",
+      "password": "user",
+      "id": "IA9t-IE"
+    },
+    {
+      "username": "user1",
+      "password": "user",
+      "id": "sbKF-OL"
+    },
+    {
+      "username": "test",
+      "password": "tees",
+      "id": "EfopUOp"
+    },
+    {
+      "username": "test",
+      "password": "tet",
+      "id": "-Izo6JN"
     }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Learn JSON",
+      "description": "This is to learn JSON",
+      "completed": false,
+      "date": "2020-08-24"
+    },
+    {
+      "id": 2,
+      "title": "Learn Redux",
+      "description": "This is to learn Redux",
+      "completed": false,
+      "date": "2020-08-24"
+    },
+    {
+      "id": 3,
+      "title": "Learn Redux Saga",
+      "description": "This is to learn Redux Saga",
+      "completed": false,
+      "date": "2020-08-24"
+    },
+    {
+      "id": 4,
+      "title": "Learn APIs",
+      "description": "This is to learn API Integration",
+      "completed": false,
+      "date": "2020-08-24"
+    },
+    {
+      "title": "Learn React Router",
+      "description": "React Router DOM is a great tool for routing.",
+      "date": "2020-08-28T05:00:47.035Z",
+      "completed": false,
+      "id": 5
+    },
+    {
+      "title": "Learn React Redux toolkit",
+      "description": "React Router DOM is a great tool for routing.",
+      "date": "2020-08-28T05:00:47.035Z",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "title": "user2",
+      "description": "usr",
+      "date": "2021-03-02T10:57:21.543Z",
+      "completed": false,
+      "id": 7
+    },
+    {
+      "title": "Sortie entre ami",
+      "description": "tsett",
+      "date": "2021-03-02T11:02:24.994Z",
+      "completed": false,
+      "id": 8
+    },
+    {
+      "title": "Petit dej",
+      "description": "dejeuner entre ami",
+      "date": "2021-03-02T11:03:29.766Z",
+      "completed": false,
+      "id": 9
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}

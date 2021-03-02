@@ -10,6 +10,11 @@ export const TASKS_LOADED = 'TASKS_LOADED'
 export const LOGIN_USER = 'LOGIN_USER'
 export const USER_LOGGEDIN = 'USER_LOGGEDIN'
 
+export const REGISTER_USER = 'REGISTER_USER'
+export const USER_REGISTREDD = 'USER_REGISTREDD'
+
+
+
 export const LOGOUT_USER = 'LOGOUT_USER'
 export const USER_LOGGEDOUT = 'USER_LOGGEDOUT'
 

@@ -7,9 +7,9 @@ import { loadTasksAction } from '../../../actions/taskActions'
 import TaskItem from './TaskItem/TaskItem.jsx'
 
 const TaskList = props => {
-    const { tasks } = props
+    const { tasks, loadTasks } = props
 
-    useEffect(() => { props.loadTasks() }, [])
+    useEffect(() => { loadTasks() }, [loadTasks])
 
     if (tasks.length === 0) {
         return <Alert>No Tasks to show.</Alert>

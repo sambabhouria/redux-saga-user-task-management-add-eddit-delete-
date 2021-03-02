@@ -2,7 +2,7 @@ import React from 'react'
 import { Row, Col } from 'reactstrap'
 import Nav from '../Nav/Nav'
 
-import Alert from '../Alert/Alert.jsx'
+import Alert from '../Alert/Alert'
 
 const Header = props => {
     return (

@@ -4,6 +4,28 @@ import * as types from '../config/actionTypes'
  *
  * @param {username, password} creds
  */
+export const registerUserAction = (creds) => {
+    return {
+        type: types.REGISTER_USER,
+        creds
+    }
+}
+
+/**
+ *
+ * @param {username, password} creds
+ */
+export const userRegistred = (user) => {
+    return {
+        type: types.USER_REGISTREDD,
+        user
+    }
+}
+
+/**
+ *
+ * @param {username, password} creds
+ */
 export const loginUserAction = (creds) => {
     return {
         type: types.LOGIN_USER,

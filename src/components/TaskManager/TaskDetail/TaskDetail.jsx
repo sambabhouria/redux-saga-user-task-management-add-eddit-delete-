@@ -10,7 +10,7 @@ const TaskDetail = ({ match }) => {
 
     useEffect(() => {
         getSingleTask(id).then(taskItem => setTask(taskItem))
-    }, [])
+    }, [id])
 
     if (!task) {
         return <Alert>Loading...</Alert>

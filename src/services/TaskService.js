@@ -2,7 +2,9 @@ import axios from 'axios'
 import { taskURL } from '../config/api'
 
 export const getTasks = () => {
-    return axios.get(taskURL).then(res => res.data)
+    return axios.get(taskURL).then(res => res.data).catch((e) =>{
+     console.log({msg: e.message})
+    })
 }
 
 export const getSingleTask = id => {
